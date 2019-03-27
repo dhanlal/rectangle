@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="rectangle" onClick="showmsg1();"><p id="p1" >div 1</p></div>
+<div id="rectangle1" onClick="showmsg2();"><p id="p2">div 2</p></div>
+<div id="rectangle2" onClick="showmsg3();"><p id="p3">div 3</p></div>
+</body>
+</html>
+
+<style type="text/css">
+	#rectangle {
+    width:600px;
+    height:400px;
+    background:#00f;
+    position:fixed;
+    top:0;
+    left:0;
+    border-solid:2px;
+    margin-left: 398px;
+
+}
+#rectangle1 {
+    width:400px;
+    height:200px;
+    background:#FF00FF;
+    position:fixed;
+    top:0;
+    left:0;
+    border-solid:2px;
+    margin-top: 95px;
+    margin-left: 494px;
+}
+#rectangle2 {
+    width:200px;
+    height:100px;
+    background:#FF4500;
+    position:fixed;
+    top:0;
+    left:0;
+    border-solid:2px;
+    margin-top: 145px;
+    margin-left: 592px;
+}
+#p1{
+	margin-left: 268px;
+}
+#p2{
+	margin-left: 170px;
+}
+#p3{
+	margin-left: 75px;
+}
+</style>
+<script type="text/javascript">
+	function showmsg1() {
+  alert("DIV 1");
+}
+function showmsg2() {
+  alert("DIV 2");
+}
+function showmsg3() {
+  alert("DIV 3");
+}
+
+</script>
